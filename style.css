@@ -64,7 +64,6 @@ nav ul {
 }
 
 nav ul li a {
-  /* width: 100%; */
   color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
@@ -160,16 +159,15 @@ nav ul li a:hover::before {
 
 .title-articles {
   text-align: center;
-  padding: 10% 0;
+  padding: 7% 0;
   font-family: "Azonix";
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 /* Articles */
-
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 80%;
   position: relative;
   margin: auto;
 }
@@ -198,7 +196,7 @@ nav ul li a:hover::before {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 /* Position the "next button" to the right */
@@ -218,19 +216,19 @@ nav ul li a:hover::before {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 4%;
+  padding-top: 3%;
 
 }
+
 .text h1 {
-  color: #f2f2f2;
+  color: #eaeaea;
   font-size: 32px;
   font-weight: 700px;
-  top: 16px;
   width: 100%;
 }
 
 .text p {
-  color: #f2f2f2;
+  color: #eaeaea;
   font-size: 24px;
   padding: 32px 0px;
   height: 28vh;
@@ -256,15 +254,14 @@ nav ul li a:hover::before {
 /* About Us */
 .title-about {
   text-align: center;
-  padding: 15% 0;
+  padding: 4% 0;
   font-family: 'Azonix';
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .card-container {
   display: flex;
   justify-content: space-evenly;
-  /* justify-content: center; */
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -288,8 +285,8 @@ nav ul li a:hover::before {
   text-align: center;
   right: 0;
   left: 0;
-  /* z-index: 3; */
 }
+
 .card-name {
   text-transform: uppercase;
   top: 32vh;
@@ -298,7 +295,6 @@ nav ul li a:hover::before {
 .card-role {
   opacity: 0.5;
 }
-
 
 .card:nth-child(1){
   background: url(./img/profile-Sendy.jpg);
@@ -349,12 +345,10 @@ footer {
   padding: 20px 0;
   width: 100vw;
   color: #eaeaea;
-  /* font-family: inter; */
   font-size: 18px;
 }
 
 .sendy {
-  /* opacity: 0.4; */
   cursor: pointer;
   color: rgb(14, 165, 233);
   text-transform: uppercase;
@@ -362,12 +356,12 @@ footer {
 
 .ega {
   opacity: 0.4;
-  /* color: aqua; */
   cursor: pointer;
   text-transform: uppercase;
 }
-/* Responsive Breakpoint */
 
+
+/* Responsive Breakpoint */
 /* Ukuran tablet */
 @media screen and (max-width: 768px) {
   nav ul {
@@ -383,7 +377,8 @@ footer {
   }
 
   .title-articles {
-    font-size: 24px;
+    font-size: 1.8rem;
+    padding: 10%;
   }
 
   .text h1 {
@@ -395,7 +390,6 @@ footer {
     margin: auto;
     height: 12vh;
     width: 90%;
-    /* left: 200px; */
   }
 
   .prev,
@@ -406,6 +400,11 @@ footer {
   .card-container {
     flex-direction: column;
     gap: 35px;
+  }
+
+  .title-about {
+    font-size: 1.8em;
+    padding-top: 15%;
   }
   
   .card {
@@ -424,9 +423,6 @@ footer {
   .text-footer {
     font-size: 24px;
   }
-
-  
-
 }
 
 /* Ukuran mobile */
@@ -458,7 +454,6 @@ footer {
   nav ul {
     position: fixed;
     right: -64px;
-    /* left: ; */
     top: 0;
     width: 80%;
     height: 100vh;
@@ -478,7 +473,8 @@ footer {
   }
 
   .title-articles {
-    font-size: 24px;
+    font-size: 1.7rem;
+    padding: 5% 0;
   }
 
   .text h1 {
@@ -490,7 +486,10 @@ footer {
     margin: auto;
     height: 16vh;
     width: 80%;
-    /* left: 200px; */
+  }
+
+  .slideshow-container {
+    width: 100%;
   }
 
   .prev,
@@ -499,7 +498,8 @@ footer {
   }
 
   .title-about {
-    font-size: 1.7em;
+    font-size: 1.7rem;
+    padding-top: 15%;
   }
 
   .card-container {
@@ -523,8 +523,4 @@ footer {
   .text-footer {
     font-size: 14px;
   }
-
-
-
-  
 }
