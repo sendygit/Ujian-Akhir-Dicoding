@@ -150,7 +150,6 @@ nav ul li a:hover::before {
 }
 
 .header-title {
-  /* font-family: Helvetica, sans-serif; */
   font-family: 'Stick No Bills', sans-serif;
   font-weight: 400px;
   display: flex;
@@ -163,7 +162,6 @@ nav ul li a:hover::before {
   text-align: center;
   padding-top: 10%;
   padding-bottom: 3%;
-  /* font-family: "Azonix"; */
   font-family: 'Stick No Bills', sans-serif;
   font-weight: 400px;
   font-size: 2.8rem;
@@ -380,11 +378,11 @@ footer {
   }
 
   .header-title {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   .title-articles {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     padding: 10%;
   }
 
@@ -410,7 +408,7 @@ footer {
   }
 
   .title-about {
-    font-size: 1.8em;
+    font-size: 2.3rem;
     padding-top: 15%;
   }
   
@@ -445,7 +443,7 @@ footer {
   }
 
   .header-title {
-    font-size: 1.7rem;
+    font-size: 2.3rem;
   }
 
   .menu-toggle {
@@ -480,7 +478,7 @@ footer {
   }
 
   .title-articles {
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     padding: 5% 0;
   }
 
@@ -505,7 +503,7 @@ footer {
   }
 
   .title-about {
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     padding-top: 15%;
   }
 
