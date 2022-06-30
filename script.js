@@ -23,7 +23,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let turn = document.getElementsByClassName("");
+  
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -33,9 +33,6 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < turn.length; i++) {
-    turn[i].className = turn[i].className.replace(" active", "");
-  }
+  
   slides[slideIndex - 1].style.display = "block";
-  turn[slideIndex - 1].className += " active";
 }

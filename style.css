@@ -46,10 +46,10 @@ nav {
 }
 
 nav .logo a {
-  font-family: "Pacifico", cursive;
+  font-family: 'Rubik Moonrocks', cursive;
   letter-spacing: 3px;
   margin-left: 64px;
-  font-size: 16px;
+  font-size: 20px;
   position: fixed;
 }
 
@@ -150,18 +150,23 @@ nav ul li a:hover::before {
 }
 
 .header-title {
-  font-family: "Azonix";
+  /* font-family: Helvetica, sans-serif; */
+  font-family: 'Stick No Bills', sans-serif;
+  font-weight: 400px;
   display: flex;
   color: rgb(255, 255, 255);
   margin: auto;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .title-articles {
   text-align: center;
-  padding: 7% 0;
-  font-family: "Azonix";
-  font-size: 2rem;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  /* font-family: "Azonix"; */
+  font-family: 'Stick No Bills', sans-serif;
+  font-weight: 400px;
+  font-size: 2.8rem;
 }
 
 /* Articles */
@@ -255,8 +260,10 @@ nav ul li a:hover::before {
 .title-about {
   text-align: center;
   padding: 4% 0;
-  font-family: 'Azonix';
-  font-size: 2rem;
+  /* font-family: 'Azonix'; */
+  font-family: 'Stick No Bills', sans-serif;
+  font-weight: 400px;
+  font-size: 2.8rem;
 }
 
 .card-container {
