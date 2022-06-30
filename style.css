@@ -302,13 +302,13 @@ nav ul li a:hover::before {
 }
 
 .card:nth-child(1){
-  background: url(./img/profile-Sendy.jpg);
+  background: url(./img/profile-sendy.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .card:nth-child(2) {
-  background: url(./img/profile-Ega.jpg);
+  background: url(./img/profile-ega.jpg);
   background-size: cover;
   background-position: center;
 }
